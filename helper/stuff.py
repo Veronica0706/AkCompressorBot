@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
-#    License can be found in < https://github.com/Veronica0706/AkCompressorBot> .
+#    License can be found in < https://github.com/1Danish-00/CompressorBot/blob/main/License> .
 
 from .worker import *
 
@@ -29,11 +29,11 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too Created by AK.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/CompressorBot"),
+                Button.url("SOURCE CODE", url="github.com/Veronica0706/AkCompressorBot"),
                 Button.url("DEVELOPER", url="t.me/why_so_serious6_9"),
             ],
         ],
@@ -61,7 +61,7 @@ async def beck(event):
             [Button.inline("HELP", data="ihelp")],
             [
                 Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("DEVELOPER", url="t.me/why_so_serious6_9"),
             ],
         ],
     )
