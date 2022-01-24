@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
-#    License can be found in < https://github.com/1Danish-00/CompressorBot/blob/main/License> .
+#    License can be found in < https://github.com/Veronica0706/AkCompressorBot> .
 
 from .worker import *
 
@@ -34,7 +34,7 @@ async def start(event):
             [Button.inline("HELP", data="ihelp")],
             [
                 Button.url("SOURCE CODE", url="github.com/1Danish-00/CompressorBot"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("DEVELOPER", url="t.me/why_so_serious6_9"),
             ],
         ],
     )
